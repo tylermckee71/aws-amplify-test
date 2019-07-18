@@ -1,9 +1,9 @@
 {
-    "identityPoolName": "test_aws_identitypool_b1fa9139",
+    "identityPoolName": "myapp_identitypool_e03e0866",
     "allowUnauthenticatedIdentities": true,
-    "openIdLambdaRoleName": "test_ab1fa9139_openid_lambda_role",
+    "openIdLambdaRoleName": "myappe03e0866_openid_lambda_role",
     "authSelections": "identityPoolOnly",
-    "resourceName": "cognitoe99cdfd5",
+    "resourceName": "cognito7222aacd",
     "authRoleName": {
         "Ref": "AuthRoleName"
     },
