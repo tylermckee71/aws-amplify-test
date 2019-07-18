@@ -1,0 +1,25 @@
+{
+    "identityPoolName": "test_aws_identitypool_b1fa9139",
+    "allowUnauthenticatedIdentities": true,
+    "openIdLambdaRoleName": "test_ab1fa9139_openid_lambda_role",
+    "authSelections": "identityPoolOnly",
+    "resourceName": "cognitoe99cdfd5",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    },
+    "unauthRoleArn": {
+        "Fn::GetAtt": [
+            "UnauthRole",
+            "Arn"
+        ]
+    }
+}

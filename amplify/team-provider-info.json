@@ -1,0 +1,19 @@
+{
+    "local": {
+        "awscloudformation": {
+            "AuthRoleName": "test-aws-local-20190717151131-authRole",
+            "UnauthRoleArn": "arn:aws:iam::503457772854:role/test-aws-local-20190717151131-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::503457772854:role/test-aws-local-20190717151131-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "test-aws-local-20190717151131-deployment",
+            "UnauthRoleName": "test-aws-local-20190717151131-unauthRole",
+            "StackName": "test-aws-local-20190717151131",
+            "StackId": "arn:aws:cloudformation:us-east-2:503457772854:stack/test-aws-local-20190717151131/11b3bf40-a8cf-11e9-af27-06017dd90e3a"
+        },
+        "categories": {
+            "auth": {
+                "cognitoe99cdfd5": {}
+            }
+        }
+    }
+}
